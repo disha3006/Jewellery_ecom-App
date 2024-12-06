@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06fe20fd.css",
+    "main.js": "/static/js/main.eb8251c8.js",
+    "static/media/main-bg.jpg": "/static/media/main-bg.86d4d75f330b2207c796.jpg",
+    "static/media/coverpage.jpeg": "/static/media/coverpage.cc10eb5fbd26e0eb09de.jpeg",
+    "static/media/b1.jpg": "/static/media/b1.eeb9d83be2f44b42bb90.jpg",
+    "static/media/b3.jpg": "/static/media/b3.267c349370a559313b43.jpg",
+    "static/media/n1.jpg": "/static/media/n1.0b51b0049a0d51635848.jpg",
+    "static/media/jewelery1.jpeg": "/static/media/jewelery1.e44ce7700b1c2c0e2323.jpeg",
+    "static/media/b4.jpg": "/static/media/b4.3cbc5d5a542da2a3cd39.jpg",
+    "static/media/e3.jpg": "/static/media/e3.f81c58dca20adfdf398f.jpg",
+    "static/media/e1.jpg": "/static/media/e1.42b1ff1b8b59a188dd11.jpg",
+    "static/media/n2.jpg": "/static/media/n2.365f0222524b4997c784.jpg",
+    "static/media/blue e.jpg": "/static/media/blue e.1802f9dfa75a162387f2.jpg",
+    "static/media/bracelet.jpg": "/static/media/bracelet.f1ab09df7c7f3fa7562f.jpg",
+    "index.html": "/index.html",
+    "main.06fe20fd.css.map": "/static/css/main.06fe20fd.css.map",
+    "main.eb8251c8.js.map": "/static/js/main.eb8251c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fe20fd.css",
+    "static/js/main.eb8251c8.js"
+  ]
+}

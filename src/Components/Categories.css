@@ -1,0 +1,46 @@
+.categories {
+  text-align: center;
+  padding: 20px;
+  background-color: #fee8e8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categories h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+  border: 3px solid transparent; /* Transparent border by default */
+}
+
+.category-item img:hover {
+  box-shadow: 0 0 20px 5px rgba(229, 204, 219, 0.6); /* Blue glow effect */
+  transform: scale(1.1); /* Slight zoom effect */
+  border-color: rgba(255, 255, 255, 0.8); /* Highlighted border */
+}
+
+.category-item p {
+  font-size: 16px;
+  font-weight: bold;
+}

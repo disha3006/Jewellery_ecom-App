@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.cards-pg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px; 
+    margin-left: 80px;
+}
+
+.product-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    text-align: center;
+    padding: 16px;
+    cursor: pointer;
+}
+
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+}
+
+.product-card h4 {
+    font-size: 1.5em;
+    margin: 16px 0;
+}
+
+.product-card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.product-card span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #ca837b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #bb664e;
+}
+
+.preview-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.preview-overlay img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+.preview-overlay h4 {
+    font-size: 1.5em;
+    margin: 16px 0;
+}
+
+.preview-overlay p {
+    font-size: 1em;
+    color: #555;
+}
+
+.preview-overlay button {
+    display: block;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.preview-overlay .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reviews p {
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,22 @@
+.sort-by {
+    display: flex;
+    align-items: center;
+    margin: 20px 75px 10px 0px;
+    justify-content: end;
+  }
+  
+  .sort-by label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+  }
+  
+  .sort-by select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  

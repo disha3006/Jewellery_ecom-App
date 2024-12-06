@@ -1,0 +1,30 @@
+.sale {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e6d6;
+  }
+  
+  .sale h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .sale p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .sale button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .sale button:hover {
+    background-color: #555;
+  }
+  

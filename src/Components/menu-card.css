@@ -1,0 +1,35 @@
+.main-menu p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 5px;
+}
+
+.main-menu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+.main-menu li:hover{
+    font-weight: bolder;
+}
+
+.main-menu ul{
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.main-menu{
+    height: 400px;
+    width: 350px;
+    margin-left: 75px;
+}
+
+.main-menu ul li:nth-child(2){
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+}

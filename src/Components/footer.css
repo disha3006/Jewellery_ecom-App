@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e8d5c7;
+  margin-top: 50px;
+}
+
+.footer-section {
+  margin-left: 0; /* Remove left margin */
+  flex: 1;
+}
+
+.footer-section h3,
+.footer-section ul {
+  text-align: left; /* Ensure text alignment is left */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.newsletter button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.newsletter button:hover {
+  background-color: #555;
+}
